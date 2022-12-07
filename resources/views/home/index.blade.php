@@ -88,10 +88,10 @@
                             <img src="{{ asset('home') }}/assets/images/feature/01.png" alt="feature-image">
                         </div>
                         <div class="lab-content">
-                            <h5>Hijaiyah</h5>
+                            <h5>Qur'an</h5>
                             <p>Lorem ipsum dolor sit, amet is consectetur adipisicing elit.Its expedita porro natus
                             </p>
-                            <a href="{{ route('home.hijaiyah') }}" class="text-btn">Belajar Sekarang!</a>
+                            <a href="{{ route('home.quran') }}" class="text-btn">Belajar Sekarang!</a>
                         </div>
                     </div>
                 </div>
@@ -133,10 +133,10 @@
                             <img src="{{ asset('home') }}/assets/images/feature/04.png" alt="feature-image">
                         </div>
                         <div class="lab-content">
-                            <h5>Iqro'</h5>
+                            <h5>Hijaiyah</h5>
                             <p>Lorem ipsum dolor sit, amet is consectetur adipisicing elit.Its expedita porro natus
                             </p>
-                            <a href="#" class="text-btn">Belajar Sekarang!</a>
+                            <a href="{{ route('home.hijaiyah') }}" class="text-btn">Belajar Sekarang!</a>
                         </div>
                     </div>
                 </div>

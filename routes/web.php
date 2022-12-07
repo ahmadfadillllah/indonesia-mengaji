@@ -8,6 +8,7 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\HijaiyahController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\QuranController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,6 +27,8 @@ Route::get('/contact', [HomeController::class, 'contact'])->name('home.contact')
 Route::post('/contact/post', [HomeController::class, 'contactpost'])->name('contact.post');
 
 Route::get('/hijaiyah', [HijaiyahController::class, 'show'])->name('home.hijaiyah');
+Route::get('/quran', [QuranController::class, 'show'])->name('home.quran');
+Route::get('/quran/surah/{nomor}', [QuranController::class, 'surah'])->name('quran.surah');
 
 Route::get('/login_page', [AuthController::class, 'login'])->name('login');
 Route::post('/login_page/post', [AuthController::class, 'loginpost'])->name('login.post');
