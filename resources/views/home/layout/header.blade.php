@@ -57,8 +57,12 @@
                                     <a href="{{ route('home.index') }}">Home</a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)">Layanan</a>
-                                </li>
+                                        <a href="#0">Layanan</a>
+                                        <ul class="submenu">
+                                            <li><a href="events.html">Belajar Ngaji Anak-anak</a></li>
+                                            <li><a href="events-single.html">Belajar Ngaji Dewasa</a></li>
+                                        </ul>
+                                    </li>
                                 <li>
                                     <a href="javascript:void(0)">Program</a>
                                 </li>

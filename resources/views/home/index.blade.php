@@ -89,7 +89,7 @@
                         </div>
                         <div class="lab-content">
                             <h5>Qur'an</h5>
-                            <p>Lorem ipsum dolor sit, amet is consectetur adipisicing elit.Its expedita porro natus
+                            <p>Kegiatan Tadarus Al-Quran yang dilakukan berkelompok atau sendiri.
                             </p>
                             <a href="{{ route('home.quran') }}" class="text-btn">Belajar Sekarang!</a>
                         </div>
@@ -104,7 +104,7 @@
                         </div>
                         <div class="lab-content">
                             <h5>Harakat</h5>
-                            <p>Lorem ipsum dolor sit, amet is consectetur adipisicing elit.Its expedita porro natus
+                            <p>Belajar memahami tanda baca dan menentukan panjang pendek dalam membaca Al-Quran
                             </p>
                             <a href="#" class="text-btn">Belajar Sekarang!</a>
                         </div>
@@ -119,7 +119,7 @@
                         </div>
                         <div class="lab-content">
                             <h5>Tanwin</h5>
-                            <p>Lorem ipsum dolor sit, amet is consectetur adipisicing elit.Its expedita porro natus
+                            <p>Belajar memahami tanda baca Harakat.
                             </p>
                             <a href="#" class="text-btn">Belajar Sekarang!</a>
                         </div>
@@ -134,7 +134,7 @@
                         </div>
                         <div class="lab-content">
                             <h5>Hijaiyah</h5>
-                            <p>Lorem ipsum dolor sit, amet is consectetur adipisicing elit.Its expedita porro natus
+                            <p>Belajar memahami beberapa huruf abjad yang berjumlah 30 huruf.
                             </p>
                             <a href="{{ route('home.hijaiyah') }}" class="text-btn">Belajar Sekarang!</a>
                         </div>
@@ -169,9 +169,8 @@
                                     </div>
                                     <div class="lab-content">
                                         <h4>Shahadah <span>(Faith)</span> </h4>
-                                        <p>The Shahadah, is an Islamic creed, one of the Five Pillars of Islam and
-                                            part of the Adhan. It reads: "I bear witness that there is no deity but
-                                            God, and I bear witness that Muhammad is the messenger of God."</p>
+                                        <p>Syahadat diucapkan oleh seorang muslim sebagai bukti keyakinan bahwa Allah SWT sebagai Tuhan dan Muhammad SAW 
+                                        sebagai utusan Allah. Lafadz bacaan dua kalimat Syahadat : "ašhadu ʾan lā ʾilāha ʾilla -llāhu, wa-ʾašhadu ʾanna muḥammadan rasūlu-llāh"</p>
                                     </div>
                                 </div>
                             </div>
@@ -184,10 +183,8 @@
                                     </div>
                                     <div class="lab-content">
                                         <h4>Salaah <span>(Prayer)</span> </h4>
-                                        <p>Each Muslim should pray five times a day: in the morning, at noon, in
-                                            the afternoon, after sunset, and early at night. These prayers can be
-                                            said anywhere, prayers that are said in company of others are better
-                                            than those said alone.</p>
+                                        <p>Setiap Muslim harus berdoa lima kali sehari: pagi, siang, sore (setelah matahari terbenam 
+                                        dan sepertiga malam). Sholat merupakan ibadah pokok dalam Islam bahkan disebutkan dalam Al-Quran bahwa Sholat tiang agama.</p>
                                     </div>
                                 </div>
                             </div>
@@ -200,10 +197,8 @@
                                     </div>
                                     <div class="lab-content">
                                         <h4>Sawm <span>(Fasting)</span> </h4>
-                                        <p>Each Muslim should pray five times a day: in the morning, at noon, in
-                                            the afternoon, after sunset, and early at night. These prayers can be
-                                            said anywhere, prayers that are said in company of others are better
-                                            than those said alone.</p>
+                                        <p>Puasa merupakan beribadah kepada Allah SWT dengan menahan diri dari makan, minum, menahan hawa nafsu, dan hal lain 
+                                        yang bisa membatalkan. Puasa dimulai dari awal terbit fajar hingga terbenamnya matahari. Puasa dilakukan selama 29-30 hari.</p>
                                     </div>
                                 </div>
                             </div>
@@ -216,10 +211,11 @@
                                     </div>
                                     <div class="lab-content">
                                         <h4>Zakat <span>(Almsgiving)</span> </h4>
-                                        <p>Each Muslim should pray five times a day: in the morning, at noon, in
-                                            the afternoon, after sunset, and early at night. These prayers can be
-                                            said anywhere, prayers that are said in company of others are better
-                                            than those said alone.</p>
+                                        <p>Zakat hukumnya wajib bagi yang mampu membayarnya. Hal ini sebagaimana firman Allah SWT dalam 
+                                        surat Al-Baqarah ayat 43. <br />
+
+                                        Zakat dikeluarkan oleh wajib pajak (muzakki) yang kemudian akan diberikan kepada orang yang 
+                                        berhak menerimanya.</p>
                                     </div>
                                 </div>
                             </div>
@@ -232,10 +228,9 @@
                                     </div>
                                     <div class="lab-content">
                                         <h4>Hajj <span>(Pilgrimage)</span> </h4>
-                                        <p>Each Muslim should pray five times a day: in the morning, at noon, in
-                                            the afternoon, after sunset, and early at night. These prayers can be
-                                            said anywhere, prayers that are said in company of others are better
-                                            than those said alone.</p>
+                                        <p>Haji merupakan rukun Islam kelima yakni menunaikan ibadah Haji sifatnya wajib bagi mampu yang 
+                                        dilakukan setidaknya sekali seumur hidup, sebagaimana firman Allah SWT dalam surat Ali 'Imran 
+                                        ayat 97. </p>
                                     </div>
                                 </div>
                             </div>
@@ -280,6 +275,45 @@
     </div>
 </section>
 <!-- Faith section end here -->
+
+<!-- Fitur Section start Here -->
+<section class="fitur-section py-5 me-feature">
+    <div class="container">
+        <div class="section-top-border pb-0">
+            <div class="learning-member_text mb-30">
+                <h5>Aplikasi</h5>
+                <h2>Fitur Aplikasi</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-4 px-5 py-1 text-center me-feature-icon">
+                    <img src="{{ asset('home') }}/assets/images/fitur/icon al-quran.png" alt="Al-Quran" style="width:100%;">
+                    <p class="mt-4">Al-Quran</p>
+                </div>
+                <div class="col-md-2 col-4 px-5 py-1 text-center me-feature-icon">
+                    <img src="{{ asset('home') }}/assets/images/fitur/icon jadwal solat.png" alt="Jadwal Sholat" style="width:100%;">
+                    <p class="mt-4">Jadwal Sholat</p>
+                </div>
+                <div class="col-md-2 col-4 px-5 py-1 text-center me-feature-icon">
+                    <img src="{{ asset('home') }}/assets/images/fitur/icon doa harian.png" alt="Bacaan Doa Harian" style="width:100%;">
+                    <p class="mt-4">Doa Harian</p>
+                </div>
+                <div class="col-md-2 col-4 px-5 py-1 text-center me-feature-icon">
+                    <img src="{{ asset('home') }}/assets/images/fitur/icon masjid terdekat.png" alt="Al-Quran" style="width:100%;">
+                    <p class="mt-4">Setor Hafalan</p>
+                </div>
+                <div class="col-md-2 col-4 px-5 py-1 text-center me-feature-icon">
+                    <img src="{{ asset('home') }}/assets/images/fitur/icon masjid terdekat.png" alt="Al-Quran" style="width:100%;">
+                    <p class="mt-4">Belajar Dzikir</p>
+                </div>
+                <div class="col-md-2 col-4 px-5 py-1 text-center me-feature-icon">
+                    <img src="{{ asset('home') }}/assets/images/fitur/icon masjid terdekat.png" alt="Al-Quran" style="width:100%;">
+                    <p class="mt-4">Masjid Terdekat</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Fitur section end here -->
 
 <!-- Qoute Section start Here -->
 <div class="qoute-section padding-tb">
